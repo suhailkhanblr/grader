@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "629007621272",
+    "project_id": "grader-3b16a",
+    "storage_bucket": "grader-3b16a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629007621272:android:86eec0eb56f9c1a1dd04ed",
+        "android_client_info": {
+          "package_name": "com.grader.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629007621272-828gtrf5cl0uf4hp8t03npc9g0lvpe9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grader.user",
+            "certificate_hash": "9c26522b64d665da33562a6c22974663e9a7c77c"
+          }
+        },
+        {
+          "client_id": "629007621272-oak42b9q2g6eil580q8jpeej0dr7s1bm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcB9wGzJ5AuvWPTabMZlUO3f1sIKKyouY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629007621272-oak42b9q2g6eil580q8jpeej0dr7s1bm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

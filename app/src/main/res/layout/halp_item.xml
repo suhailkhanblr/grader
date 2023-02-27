@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:animateLayoutChanges="true"
+    android:animationCache="true"
+    android:background="@color/white"
+    android:gravity="center|left"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/lvl_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_pages" />
+
+        <TextView
+            android:id="@+id/txt_tital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_right"
+            android:drawableTint="@color/colorgrey"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:text="tutut"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+</LinearLayout>

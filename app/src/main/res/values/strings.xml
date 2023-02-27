@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Grader</string>
+    <string name="continue_with_phone">Continue with Phone number</string>
+    <string name="enter_your_phone">Enter your phone number</string>
+    <string name="continues">Continue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="API_KEY">AIzaSyC-iGv1fmliHToZ4Rz-dpHpF6jkFDo6i4Q</string>
+    <string name="send_package">Send package</string>
+    <string name="acount">Account</string>
+    <string name="orders">Orders</string>
+    <string name="wallet">Wallet</string>
+    <string name="home">Home</string>
+    <string name="droppack">Where is your  <b>Drop?</b></string>
+
+    <string name="confirm_location">Confirm Location</string>
+    <string name="save_amp_proceed"><![CDATA[Save & Proceed]]></string>
+    <string name="proceed">Proceed</string>
+    <string name="searching">Searching for<b>driver...</b></string>
+    <string name="cancel_trip">Cancel Trip</string>
+    <string name="all_orders">All orders</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="logout">LOGOUT</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_amount">Enter Amount</string>
+</resources>
