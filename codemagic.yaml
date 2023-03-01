@@ -10,17 +10,6 @@ workflows:
         - google_play
       vars:
         PACKAGE_NAME: "com.grader.user"
-    artifacts:
-      - app/build/outputs/**/*.aab
-    publishing:
-      email:
-        recipients:
-          - user_1@example.com
-          - user_2@example.com
-        notify:
-          success: true
-          failure: false
-  my-workflow:
     scripts:
       - name: Build Android APK
         working_directory: android
