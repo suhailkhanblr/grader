@@ -2,6 +2,9 @@ workflows:
   android-app:
     name: Android App
     scripts:
-      - ./gradlew assembleDebug
+      - ./gradlew assembleRelease
     artifacts:
       - build/outputs/**/**/*.apk
+    environment:
+      android_signing:
+        - default
