@@ -11,7 +11,7 @@ workflows:
       vars:
         PACKAGE_NAME: "com.grader.user"
     artifacts:
-      - app/build/outputs/**/*.aab .apk
+      - app/build/outputs/**/*.aab
     publishing:
       email:
         recipients:
@@ -20,4 +20,10 @@ workflows:
         notify:
           success: true
           failure: false
-      
+  my-workflow:
+    scripts:
+      - name: Build Android APK
+        working_directory: android
+        script: ./gradlew assembleRelease
+    artifacts:
+      - app/build/outputs/**/**/*.apk
